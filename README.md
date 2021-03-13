@@ -24,6 +24,7 @@ P := \frac{\Sigma_{\sigma} M e^{-\beta H}}{\Sigma_{\sigma} e^{-\beta H}}
 $$
 である. $\Sigma$は全スピンの組み合わせについて和をとる.
 この確率分布に従い, 下記のようなスピン配位の画像を準備する.
-![テキスト]("./photospin.png")
+<img width="252" alt="photospin" src="https://user-images.githubusercontent.com/34843968/111042073-d0dfb680-847e-11eb-8fbb-7a7458f4fefd.png">
+
 黒が$\sigma=1$で白が$\sigma=0$. こういった画像と温度を入力し, 正解データとして$M=0or1$を与える. このように画像認識をさせることで相転移する$\beta$を推定する.
-***,ipnyがそれを実装したものである.
+[IsingModel-MachineLearning.ipynb](https://github.com/ssoo0/ssoo0-IsingModel-MachineLearning/blob/main/IsingModel-MachineLearning.ipynb)がそれを実装したものである.
